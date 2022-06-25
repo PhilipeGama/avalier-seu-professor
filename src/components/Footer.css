@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
 }
 
 .App {
@@ -46,6 +45,10 @@ footer {
 
 .list li {
   text-align: left;
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  vertical-align: middle;
   margin-bottom: 4px;
 }
 
@@ -62,6 +65,7 @@ p {
   color: #FFFFFF;
 }
 
-svg {
-  margin-right: 3px;
+.icons {
+  size: 15px;
+  color: white;
 }
