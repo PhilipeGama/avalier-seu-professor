@@ -8,17 +8,22 @@
 }
 .search{
     height: 12vh;
-    background-color: rgb(19, 19, 19); 
+    background-color: #474A51;
 }
 .nav{
     height: 5vh;
     background-color: white;
     display: flex;
+    box-shadow: 2px 2px 2px grey;
+    border-top: 3px solid #FF8C00;
 }
 .info_content{
     display: flex;
     width: 70%;
     margin: 0 auto;
+}
+.search-content img{
+    display: block;
 }
 .info_left, .info_right{
     width: 50%;
@@ -54,9 +59,9 @@
 .nav ul li{
     width: 200px;
     display: flex;
+    color: rgb(41, 41, 41);
     flex-direction:column;
     justify-content: center;
-    align-items: center;
     background-color: white;
     text-align: center;
     font-size: 1.2rem;
@@ -68,9 +73,9 @@
     content: "";
     width: 0%;
     height: 2px;
-    background-color: #464646;
+    background-color: #a0a0a0;
     transition: 0.2s all;
 }
 .nav ul li:hover::after{
-    width: 70%;
+    width: 90%;
 }
