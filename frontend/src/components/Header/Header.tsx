@@ -1,4 +1,5 @@
-import "../styles/header.css";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
     let logged = 'My Account';
@@ -15,11 +16,22 @@ function Header() {
             </div>
         </div>
         <nav className="block nav">
+     
+
+         
             <ul className="info_content">
-                <li>Inicio</li>
-                <li>Professores</li>
-                <li>Adicionar Professor</li>
-                <li>Sobre</li>
+                <Link to="/">
+                    <li>Inicio</li>
+                </Link>
+                <Link to="/teacher">
+                    <li>Professores</li>
+                </Link>
+                <Link to="/register-teacher">
+                    <li>Adicionar Professor</li>
+                </Link>
+                <Link to="/about">
+                    <li>Sobre</li>
+                </Link>
             </ul>
         </nav>
      </header>
