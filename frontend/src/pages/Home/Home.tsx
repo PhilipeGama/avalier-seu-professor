@@ -4,7 +4,8 @@ import { Router } from "../../Router";
 
 export function Home() {
   const customHeight = {
-    height: "63vh",
+    height: "93vh",
+    marginTop: '5vh'
   };
   return (
     <>

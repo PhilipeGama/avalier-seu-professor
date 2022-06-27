@@ -17,11 +17,13 @@ function App() {
         <div className="container">
           <h3 className="collumnTitle">Quem somos?</h3>
           <ul className="list">
-            <li>
-              <GithubLogo className="icons" />
-              <LinkedinLogo className="icons" />
-              Ruan Soares
-            </li>
+            <a href="https://www.github.com/ruanx14">
+              <li>
+                <GithubLogo className="icons" />
+                <LinkedinLogo className="icons" />
+                Ruan Soares
+              </li>
+            </a>
             <li>
               <GithubLogo className="icons" />
               <LinkedinLogo className="icons" />
