@@ -1,5 +1,3 @@
-export function About(){
-    return(
-        <h4>About</h4>
-    )
+export function About() {
+  return <h4>About</h4>;
 }
