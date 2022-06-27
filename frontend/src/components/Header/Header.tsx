@@ -28,6 +28,7 @@ function Header() {
             listClickCheck.current.style.transform = "translateX(-100%)";
             clickable.current.style.display = "none";
         }
+        /* 
         if(listClickCheck.current.childNodes!=undefined){
             for(var i=0;i<listClickCheck.current.childNodes.length;i++){
                 listClickCheck.current.childNodes[i].addEventListener('click', () => {
@@ -35,7 +36,8 @@ function Header() {
                     clickable.current.style.display = "none";
                 });
             }
-        }
+        } 
+        */
        
 
     },true);
