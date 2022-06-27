@@ -1,5 +1,3 @@
 export function RegisterTeacher() {
-    return(
-        <h4>Registrar Professores</h4>
-    )
+  return <h4>Registrar Professores</h4>;
 }

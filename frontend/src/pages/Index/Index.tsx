@@ -1,5 +1,3 @@
-export function Index(){
-    return(
-        <h4>Index</h4>
-    )
+export function Index() {
+  return <h4>Index</h4>;
 }

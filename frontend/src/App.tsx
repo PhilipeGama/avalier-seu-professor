@@ -1,13 +1,13 @@
-
-import { BrowserRouter } from 'react-router-dom';
-import { Home } from './pages/Home/Home';
+import { BrowserRouter } from "react-router-dom";
+import "./styles/global.css";
+import { Home } from "./pages/Home/Home";
 
 function App() {
   return (
     <BrowserRouter>
-      <Home/>
+      <Home />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
